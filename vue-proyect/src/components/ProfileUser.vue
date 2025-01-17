@@ -19,7 +19,7 @@
     <div class="mt-6">
       <button 
         @click="logout" 
-        class="w-full bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300 transition"
+        class="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
       >
         Cerrar sesión
       </button>

@@ -30,11 +30,12 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/frankylua/proyecto-vue-laravel
+   git clone https://github.com/frankylua/login-vue-laravel
    cd proyecto-vue-laravel
 
 2. **Instalar dependencias de PHP**:
 
+    cd laravel
     composer install
 
 3. **Configurar la base de datos**:
@@ -52,6 +53,8 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
 6. **Instalar dependencias de Javascript**
 
+    cd ..
+    cd vue-proyect
     npm install
 
 7. **Iniciar servidor Laravel**  
