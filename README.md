@@ -53,7 +53,6 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
 6. **Instalar dependencias de Javascript**
 
-    cd ..
     cd vue-proyect
     npm install
 
