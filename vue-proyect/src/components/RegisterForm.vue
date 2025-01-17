@@ -80,9 +80,9 @@ export default defineComponent({
   },
   methods: {
     async handleRegister(event: Event) {
-      event.preventDefault(); // Evita la recarga de la página al hacer submit
+      event.preventDefault(); 
 
-      // Validación básica para verificar que las contraseñas coincidan
+      // Validación  para verificar que las contraseñas coincidan
       if (this.password !== this.confirmPassword) {
         this.errorMessage = "Las contraseñas no coinciden.";
         return;
@@ -103,7 +103,7 @@ export default defineComponent({
   this.successMessage = "¡Registro exitoso! Redirigiendo a Login...";
   this.errorMessage = "";
 
-  // Redirigir al login después de 2 segundos
+  // Redirigir al login 
   setTimeout(() => {
     this.$router.push("/login");
   }, 2000);

@@ -10,7 +10,7 @@ class CorsMiddleware
     public function handle(Request $request, Closure $next)
     {
         // Definir los orígenes permitidos
-        $allowedOrigins = ['http://localhost:8080']; // Ajusta esto según tu frontend
+        $allowedOrigins = ['http://localhost:8080']; 
 
         // Verificar si el origen de la solicitud está permitido
         $origin = $request->headers->get('Origin');
